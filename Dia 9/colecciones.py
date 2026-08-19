@@ -17,3 +17,8 @@ print(contador_frase)
 persona = namedtuple("Persona", ["nombre", "edad", "ciudad"])
 persona1 = persona("Juan", 30, "Madrid")
 print(persona1)
+
+#deque: una lista de doble extremo que permite agregar y eliminar elementos desde ambos extremos
+from collections import *
+
+lista_ciudades = deque(["Londres", "Berlin", "París", "Madrid", "Roma", "Moscú"])
